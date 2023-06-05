@@ -105,7 +105,6 @@ function Content() {
 
   return (
     <div>
-      main
       {renderQuestionAndAnswer()}
       <Button type="primary" onClick={handleClickNext}>
         Next
