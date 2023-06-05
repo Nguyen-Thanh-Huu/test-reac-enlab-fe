@@ -1,0 +1,80 @@
+/* styles.module.css */
+
+.answer {
+    width: 30rem;
+    background-color: #23e179;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    list-style-type: none;
+    margin-left: 32%;
+    
+  }
+  
+   
+/*   
+  .selected {
+    background-color: #2ee66e;
+  }
+   */
+  .correct {
+    background-color: rgb(23, 188, 23);
+  }
+  
+  .incorrect {
+    background-color: rgb(243, 143, 143);
+  }
+
+  .none {
+    list-style-type: none;
+  }
+
+  ul li {
+    width: 30rem;
+    margin-left: 32%;
+    margin-top: 0.2rem;
+    background-color: antiquewhite;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+  }
+
+  ul li:hover {
+    background-color: #23e179;
+  }
+
+  ul li:active {
+    /* background-color: #23e179; */
+    /* background-color: #d66060; */
+  }
+ 
+  div li {
+    width: 30rem;
+    margin-left: 32%;
+    margin-top: 0.2rem;
+    background-color: antiquewhite;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    cursor: pointer; 
+  }
+
+  .error {
+    width: 30rem;
+    margin-left: 32%;
+    margin-top: 0.2rem;
+    background-color: rgb(238, 111, 72);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    cursor: pointer; 
+  }
